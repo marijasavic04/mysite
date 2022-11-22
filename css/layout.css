@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+/* Header */
+header {
+  padding: 24px 0;
+}
+h1 {
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 42px;
+  border-bottom: 2px solid #000;
+  padding-bottom: 16px;
+  width: 720px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 16px;
+}
+
+ul li a {
+  padding: 16px 24px;
+  text-decoration: none;
+  color: #000;
+  transition: all 0.4s;
+}
+
+ul li a:hover {
+  background: #ccc;
+}
+
+/* Footer */
+footer {
+  margin: 42px; 
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+.icons a {
+  margin: 0 10px;
+  transition: all 0.4s;
+}
+.icons a:hover i {
+  color: blue;
+}
+.icons i {
+  font-size: 24px;
+  color: #000;
+}
+
+.copy {
+  margin-top: 16px;
+  text-align: center;
+}
