@@ -13,16 +13,20 @@ html {
 }
 
 body {
-  min-height: 100vh;
+  /* min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; */
 }
 
 
 /* Header */
 header {
   padding: 24px 0;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 h1 {
   font-family: 'IBM Plex Serif', serif;
