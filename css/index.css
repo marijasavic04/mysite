@@ -1,8 +1,9 @@
 .first-section {
-background: url('https://gray-wcsc-prod.cdn.arcpublishing.com/resizer/mp4kypTWVBcOzCRt_ypjmnBNHYo=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/A2TH2EN5CBDVXJRAADJX6H33YM.gif') no-repeat;
-background-size: cover;
-background-position: center;
-height: 450px;
+  background: url("https://gray-wcsc-prod.cdn.arcpublishing.com/resizer/mp4kypTWVBcOzCRt_ypjmnBNHYo=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/A2TH2EN5CBDVXJRAADJX6H33YM.gif")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 450px;
 }
 
 .first-section div {
@@ -21,9 +22,9 @@ height: 450px;
   font-size: 40px;
   font-weight: 300;
 }
-.first-section div h3{
-font-weight: 300;
-font-size: 20px;
+.first-section div h3 {
+  font-weight: 300;
+  font-size: 20px;
 }
 .todays-section .title-box {
   text-align: center;
@@ -44,27 +45,28 @@ font-size: 20px;
   width: 50%;
   object-fit: cover;
 }
-.todays-section .post-box .box{
+.todays-section .post-box .box {
   width: 50%;
   text-align: left;
   padding: 120px;
   background-color: rgb(72, 72, 123);
   color: #fff;
 }
-.todays-section .post-box .box h3, 
+.todays-section .post-box .box h3,
 .todays-section .post-box .box h4 {
-margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .quote-section {
   background-image: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0,0.6),
-    rgba(0, 0, 0, 0.3)), 
-    url('../images/qoute.jpg');
+      to bottom,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("../images/qoute.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 350px;
+  height: 400px;
   color: #fff;
   display: flex;
   align-items: center;
@@ -72,10 +74,11 @@ margin-bottom: 30px;
   text-align: center;
 }
 .sign-section {
-text-align: center;
-/* display: flex; */
+  text-align: center;
+  margin-bottom: 30px;
+  /* display: flex; */
 }
-.sign-section  h2{
+.sign-section h2 {
   margin-bottom: 20px;
   margin-top: 70px;
 }
@@ -101,12 +104,103 @@ text-align: center;
   justify-content: space-around;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  
+
   border-radius: 8px;
 }
 
 .sign-section .sign-box h4 {
   padding: 8px;
 }
-
-
+.contact-section .sec {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(72, 72, 123);
+  /* height: 700px; */
+  color: #fff;
+}
+.contact-section .map {
+  background-color: rgb(72, 72, 123);
+}
+.contact-section .p-sec {
+  width: 50%;
+  margin-top: 110px;
+  text-align: center;
+}
+.contact-section .p-sec h2 {
+  font-size: 33px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+.contact-section .p-sec p {
+  margin-bottom: 20px;
+}
+.contact-section .input-sec {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-section .input-sec .duo {
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+}
+.contact-section .input-sec .duo .input-box {
+  width: 50%;
+}
+.contact-section .input-sec .input-container {
+  width: 65%;
+  /* height: 70%; */
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.contact-section .input-sec .input-container .input-box {
+  display: flex;
+  flex-direction: column;
+}
+.contact-section .input-sec .input-container .input-box label {
+  font-size: 20px;
+  font-weight: 100;
+}
+.contact-section .input-sec .input-container .input-box input {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.849);
+  font-size: 18px;
+}
+input[type="text"] {
+  font-size: 15px;
+  color: #fff;
+}
+.contact-section .input-sec .input-container .input-box button {
+  background-color: #fff;
+  padding: 10px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+textarea {
+  height: 130px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid white;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 18px;
+}
+.contact-section .map {
+  background-color: rgb(72, 72, 123);
+}
+.contact-section .map iframe {
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+}
