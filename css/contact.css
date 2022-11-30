@@ -1,0 +1,96 @@
+.contact-section .sec {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(72, 72, 123);
+  /* height: 700px; */
+  color: #fff;
+}
+.contact-section .map {
+  background-color: rgb(72, 72, 123);
+}
+.contact-section .p-sec {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* text-align: center; */
+}
+.contact-section .p-sec h2 {
+  font-size: 33px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+.contact-section .p-sec p {
+  margin-bottom: 20px;
+}
+.contact-section .input-sec {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+.contact-section .input-sec .duo {
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+}
+.contact-section .input-sec .duo .input-box {
+  width: 50%;
+}
+.contact-section .input-sec .input-container {
+  width: 48%;
+  /* height: 70%; */
+  /* margin-bottom: 20px;
+  margin-top: 40px; */
+}
+.contact-section .input-sec .input-container .input-box {
+  display: flex;
+  flex-direction: column;
+}
+.contact-section .input-sec .input-container .input-box label {
+  font-size: 20px;
+  font-weight: 100;
+}
+.contact-section .input-sec .input-container .input-box input {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 5px;
+  border: 2px solid white;
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.849);
+  font-size: 18px;
+}
+input[type="text"] {
+  font-size: 15px;
+  color: #fff;
+}
+.contact-section .input-sec .input-container .input-box button {
+  background-color: #fff;
+  padding: 10px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+textarea {
+  height: 130px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid white;
+  color: #fff;
+  font-size: 18px;
+}
+.contact-section .map {
+  background-color: rgb(72, 72, 123);
+}
+.contact-section .map iframe {
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+}
