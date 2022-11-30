@@ -47,8 +47,9 @@
 }
 .todays-section .post-box .box {
   width: 50%;
-  text-align: left;
-  padding: 120px;
+  padding-top: 50px;
+  text-align: center;
+  padding: 20px;
   background-color: rgb(72, 72, 123);
   color: #fff;
 }
@@ -123,8 +124,12 @@
 }
 .contact-section .p-sec {
   width: 50%;
-  margin-top: 110px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* text-align: center; */
 }
 .contact-section .p-sec h2 {
   font-size: 33px;
@@ -140,6 +145,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 60px;
 }
 .contact-section .input-sec .duo {
   display: flex;
@@ -150,10 +156,10 @@
   width: 50%;
 }
 .contact-section .input-sec .input-container {
-  width: 65%;
+  width: 48%;
   /* height: 70%; */
-  margin-bottom: 20px;
-  margin-top: 40px;
+  /* margin-bottom: 20px;
+  margin-top: 40px; */
 }
 .contact-section .input-sec .input-container .input-box {
   display: flex;
@@ -167,7 +173,6 @@
   background-color: rgba(255, 255, 255, 0);
   padding: 5px;
   border: 2px solid white;
-  border-radius: 15px;
 }
 ::placeholder {
   color: rgba(255, 255, 255, 0.849);
@@ -192,7 +197,6 @@ textarea {
   height: 130px;
   background-color: rgba(255, 255, 255, 0);
   border: 2px solid white;
-  border-radius: 15px;
   color: #fff;
   font-size: 18px;
 }
