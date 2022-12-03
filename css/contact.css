@@ -1,13 +1,24 @@
 .contact-section .sec {
   display: flex;
   flex-direction: row;
-  background-color: rgb(72, 72, 123);
+
   /* height: 700px; */
   color: #fff;
 }
 .contact-section .map {
-  background-color: rgb(72, 72, 123);
+  padding-bottom: 20px;
 }
+
+.contact-section {
+  /* background-color: rgb(72, 72, 123); */
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(116, 39, 124, 1) 43%,
+    rgba(0, 133, 159, 1) 100%
+  );
+}
+
 .contact-section .p-sec {
   width: 50%;
   display: flex;
