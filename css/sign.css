@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  /* background: radial-gradient(
+    circle,
+    rgb(128, 124, 211) 0%,
+    rgba(166, 116, 171, 1) 30%,
+    rgba(73, 146, 161, 1) 100%
+  ); */
+}
+
+.container .flex {
+  display: flex;
+  margin-bottom: 35px;
+}
+.container .flex .sign-box {
+  display: flex;
+  flex-direction: column;
+  margin: 0 40px;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.container .flex .sign-box label {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.container .flex .sign-box:hover {
+  transform: scale(1.1);
+}
+
+img {
+  width: 120px;
+  height: auto;
+}
